@@ -1,0 +1,19 @@
+h1,
+h2 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f6c177;
+}
+nav {
+  background-color: #3e8fb0;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
