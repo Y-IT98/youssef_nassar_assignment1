@@ -117,7 +117,6 @@ footer {
 .sidenavbar {
   display: flex;
   position: relative;
-  background-color: #c4a7e7;
 }
 .notenav {
   display: flex;
@@ -129,7 +128,6 @@ footer {
   display: block;
   flex-direction: row;
   padding-left: 20%;
-  background-color: #c4a7e7;
 }
 /* .delsave {
   justify-content: center;
@@ -142,4 +140,15 @@ footer {
 .s-box {
   display: flex;
   justify-content: center;
+}
+li {
+  list-style-type: circle;
+  font-size: medium;
+  font-weight: 300;
+}
+.notesidebar {
+  top: 0;
+  left: 10%;
+  width: 100%;
+  margin-right: 100px;
 }
