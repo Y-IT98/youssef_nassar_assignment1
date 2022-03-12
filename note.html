@@ -19,22 +19,41 @@
     />
     <title>Note App</title>
   </head>
-  <a href="About.html">About</a>
-  <a href="Docs.html">Docs</a>
-  <footer>Created by Youssef Nassar</footer>
+  <body>
+    <nav class="pagelink">
+      <a class="links" href="About.html">About</a>
+      <a class="links" href="Docs.html">Docs</a>
+    </nav>
+    <footer>Created by Youssef Nassar</footer>
+    <div class="sidenavbar">
+      <nav>
+        <button>>>></button>
 
-  <div class="note-button">
-    <button class="notebutton">&#10132; Create Note</button>
-  </div>
+        <ul class="navlist">
+          <li>Notes</li>
 
-  <div class="flexbox">
-    <textarea
-      class="textarea"
-      placeholder="Create a new note"
-      rows="10"
-      cols="70"
-    >
-    </textarea>
-  </div>
-  <body></body>
+          <li>Note one</li>
+
+          <li>Note two</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="note-button">
+      <button class="notebutton">+ Create Note</button>
+
+      <textarea
+        class="textarea"
+        placeholder="Create a new note"
+        rows="10"
+        cols="70"
+      >
+      </textarea>
+    </div>
+
+    <!--  -->
+    <div class="s-box">
+      <input type="submit" class="s-btn" value="Save" />
+      <input type="submit" class="s-btn" value="Delete" />
+    </div>
+  </body>
 </html>

@@ -75,10 +75,71 @@ footer {
 .note-button {
   display: flex;
   justify-content: center;
-  margin-right: 200px;
+  margin-bottom: 5%;
 }
 .notebutton {
   display: flex;
   justify-content: left;
-  flex-direction: column;
+  height: 30%;
+}
+.pagelink {
+  display: flex;
+  justify-content: right;
+  color: #232136;
+  height: inherit;
+  top: 0;
+  list-style-type: none;
+  padding-right: 20px;
+}
+.links {
+  display: flex;
+  padding-right: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #232136;
+}
+.new_note {
+  display: flex;
+  justify-content: center;
+}
+.index_button {
+  display: flex;
+  justify-content: left;
+  padding-top: 100px;
+  margin-left: 200px;
+}
+.slideout {
+  display: flex;
+  margin-bottom: 100px;
+  top: 0;
+  position: fixed;
+}
+.sidenavbar {
+  display: flex;
+  position: relative;
+  background-color: #c4a7e7;
+}
+.notenav {
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+}
+.navlist {
+  display: block;
+  flex-direction: row;
+  padding-left: 20%;
+  background-color: #c4a7e7;
+}
+/* .delsave {
+  justify-content: center;
+  flex-wrap: wrap;
+} */
+
+.s-box {
+  margin-top: none;
+}
+.s-box {
+  display: flex;
+  justify-content: center;
 }
